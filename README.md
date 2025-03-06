@@ -13,16 +13,14 @@ This project implements an **algorithmic trading system** that leverages **machi
 
 ## 📂 Project Structure
 ```
-📁 stock-trading-ml
+📁 notebooks
 │── 📂 data                # Raw and processed stock market data
 │── 📂 models              # Trained ML models
-│── 📂 notebooks           # Jupyter Notebooks for analysis
-│    │── 📂 data
-│    │── 📂 models
-│    │── 📂 backtesting reports
-│    │── classification_model.ipynb
-│    │── regression_model.ipynb
-│    │── backtesting_model.ipynb
+│── 📂 backtesting reports
+│── data_processing.ipynb
+│── classification_model.ipynb
+│── regression_model.ipynb
+│── backtesting_model.ipynb
 │── 📂 src                 # Core scripts for training and trading
 │    │── data_processing.py   # Data cleaning and feature engineering
 │    │── model_training.py    # ML model training and evaluation
@@ -36,9 +34,6 @@ This project implements an **algorithmic trading system** that leverages **machi
 ## 📊 Data Sources
 The model uses stock price data from sources like:
 - **Yahoo Finance** (`yfinance` API)
-- **Alpha Vantage**
-- **Polygon.io**
-- **Brokerage APIs** (e.g., Alpaca, Interactive Brokers)
 
 ## ⚙️ Installation & Setup
 ### Prerequisites
