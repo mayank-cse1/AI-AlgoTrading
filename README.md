@@ -1,15 +1,21 @@
 # Stock Market Algo Trading Machine Learning Model
 
-## 📌 Overview
-This project implements an **algorithmic trading system** that leverages **machine learning models** to predict stock price movements and execute trades based on historical market data. The system is designed to optimize trading strategies by analyzing market trends, price patterns, and technical indicators.
+## 📌 Overview  
+This project implements an **algorithmic trading system** that leverages **machine learning models** to predict stock price movements and execute trades based on historical market data. The system is designed to optimize trading strategies by analyzing market trends, price patterns, and technical indicators.  
 
-## 🚀 Features
-- **Data Preprocessing**: Cleans and transforms stock market data for model training.
-- **Feature Engineering**: Uses technical indicators (e.g., Moving Averages, RSI, MACD) for predictive insights.
-- **Machine Learning Models**: Implements models like Random Forest, XGBoost, LSTM, or Transformer-based models.
-- **Backtesting**: Simulates trades on historical data to evaluate strategy performance.
-- **Live Trading**: Integrates with brokerage APIs to execute trades in real-time.
-- **Risk Management**: Includes stop-loss, take-profit, and position-sizing mechanisms.
+Additionally, the project integrates **Generative AI** to analyze **market news sentiment** and provide **conversational insights** into a personal investment portfolio. This enables traders to make more informed decisions based on both structured market data and unstructured financial news.  
+
+## 🚀 Features  
+- **Data Preprocessing**: Cleans and transforms stock market data for model training.  
+- **Feature Engineering**: Uses technical indicators (e.g., Moving Averages, RSI, MACD) for predictive insights.  
+- **Machine Learning Models**: Implements models like Random Forest, XGBoost, LSTM, or Transformer-based models.  
+- **Backtesting**: Simulates trades on historical data to evaluate strategy performance.  
+- **Live Trading**: Integrates with brokerage APIs to execute trades in real-time.  
+- **Risk Management**: Includes stop-loss, take-profit, and position-sizing mechanisms.  
+- **Generative AI for Market News Analysis**: Analyzes financial news sentiment to assess its potential impact on stock prices.  
+- **AI-Powered Portfolio Chatbot**: Allows users to interact with their investment portfolio through natural language queries, enabling real-time insights and recommendations.  
+
+With the **addition of Generative AI**, this system goes beyond traditional algorithmic trading by incorporating real-time **news sentiment** and **personalized AI-driven portfolio insights**, enhancing decision-making for traders. 🚀.
 
 ## 📂 Project Structure
 ```
@@ -29,6 +35,13 @@ This project implements an **algorithmic trading system** that leverages **machi
 │    │── live_trading.py      # Real-time trade execution
 │── README.md            # Project documentation
 │── requirements.txt      # Dependencies and libraries
+📁GenAI_Portfolio_Analysis_Integration
+│── app.py               # Streamlit integration for interactive UI  
+│── workflow.py          # Step-by-step LangChain workflow for query processing  
+│── rag_code.py          # Custom wrappers for retrieval-augmented generation (RAG)  
+│── requirements.txt     # Dependencies required to run the project  
+│── colab_run.ipynb      # Guide for running the project on Google Colab  
+
 ```
 
 ## 📊 Data Sources
