@@ -105,5 +105,5 @@ pip install -r requirements.txt
 This project is for **educational purposes only** and should not be used for actual trading without extensive testing. The stock market involves significant risks, and past performance does not guarantee future results.
 
 ## 📧 Contact
-For questions or collaboration, reach out at **[your.email@example.com](mailto:your.email@example.com)**.
+For questions or collaboration, reach out at **[mayank.guptacse1@gmail.com](mailto:mayank.guptacse1@gmail.com)**.
 
