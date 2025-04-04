@@ -1,11 +1,12 @@
 # Stock Market Algo Trading Machine Learning Model
 
-## 📌 Overview  
+## Overview  
 This project implements an **algorithmic trading system** that leverages **machine learning models** to predict stock price movements and execute trades based on historical market data. The system is designed to optimize trading strategies by analyzing market trends, price patterns, and technical indicators.  
+![architecture-Investor-Anlaysis](https://github.com/user-attachments/assets/9f85e1e6-efd4-4beb-9997-c7cd1a864af6)
 
 Additionally, the project integrates **Generative AI** to analyze **market news sentiment** and provide **conversational insights** into a personal investment portfolio. This enables traders to make more informed decisions based on both structured market data and unstructured financial news.  
 
-## 🚀 Features  
+## Features  
 - **Data Preprocessing**: Cleans and transforms stock market data for model training.  
 - **Feature Engineering**: Uses technical indicators (e.g., Moving Averages, RSI, MACD) for predictive insights.  
 - **Machine Learning Models**: Implements models like Random Forest, XGBoost, LSTM, or Transformer-based models.  
@@ -44,11 +45,11 @@ With the **addition of Generative AI**, this system goes beyond traditional algo
 
 ```
 
-## 📊 Data Sources
+## Data Sources
 The model uses stock price data from sources like:
 - **Yahoo Finance** (`yfinance` API)
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 ### Prerequisites
 Ensure you have **Python 3.8+** installed and install dependencies:
 ```bash
@@ -73,18 +74,18 @@ pip install -r requirements.txt
    python src/live_trading.py
    ```
 
-## 📈 Trading Strategies Implemented
+##  Trading Strategies Implemented
 - **Momentum Trading**: Uses moving averages and RSI to identify trends.
 - **Mean Reversion**: Detects overbought/oversold conditions.
 - **Breakout Strategy**: Trades based on support/resistance breakouts.
 - **Machine Learning-Based Predictions**: Uses historical price data and indicators for buy/sell decisions.
 
-## 🛡️ Risk Management
+##  Risk Management
 - **Stop-Loss & Take-Profit**: Dynamically adjusts risk per trade.
 - **Position Sizing**: Adjusts trade sizes based on portfolio size.
 - **Diversification**: Limits exposure to a single asset class.
 
-## 🔗 API & Brokerage Integration
+##  API & Brokerage Integration
 - **Alpaca API**: For commission-free trading
 - **Interactive Brokers API**: For institutional-grade trading
 - **Binance API**: For cryptocurrency trading
@@ -95,13 +96,20 @@ pip install -r requirements.txt
 - **Backtrader** (for strategy backtesting)
 - **Flask / FastAPI** (for deploying as a trading service)
 
+## Demo
+
+Youtube Video 👉https://youtu.be/kzGnCuoi-pw?si=yz7RNNVJhAFbz8GZ
+
+https://github.com/user-attachments/assets/258a080b-4eb3-4e63-974e-9e8d3f0865e2
+
+
 ## 📌 Future Improvements
 - ✅ Reinforcement Learning for adaptive trading
 - ✅ Integration with more real-time data sources
 - ✅ Enhanced deep learning models (e.g., LSTMs, Transformer-based models)
 - ✅ Web dashboard for real-time strategy monitoring
 
-## ⚠️ Disclaimer
+##  Disclaimer
 This project is for **educational purposes only** and should not be used for actual trading without extensive testing. The stock market involves significant risks, and past performance does not guarantee future results.
 
 ## 📧 Contact
